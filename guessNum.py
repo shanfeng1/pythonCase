@@ -45,9 +45,9 @@ def main():
         nInput=printNum()
         
     print ("恭喜你猜对了")
-    #print ("你直到猜对 共猜了%d次" % Total
+    print ("你直到猜对 共猜了%d次" %nTotal)
     
-    if nTotal < 10:
+    if nTotal < 10 :
         print ("恭喜，你的成绩超过了平均水平")
     else:
         print ("很遗憾，你成绩没达到平均水平")
